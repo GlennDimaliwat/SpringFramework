@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymleaf.org">
+
+<head>
+	<title>Web App Exercise</title>
+</head>
+
+<body>
+	<h1>Web App Exercise</h1>
+	<p>This is the third part of the exercise.</p><br/>
+	<p>This page should be displayed containing the following messages:</p>
+	<br/>
+	
+	<p th:text="${message.messageTitle}">
+		This is the static title.
+	</p>
+	<p th:text="${message.messageBody}">
+		This is the static body.
+	</p>
+	<p th:text="${message.author}">
+		This is the static author.
+	</p>
+</body>
+
+</html>

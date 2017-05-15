@@ -1,0 +1,25 @@
+/*
+*	CSS to make Buttons look like Link
+*/
+
+form {
+	display: inline;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+  font-size: 16px;
+}		
+
+.link-button:focus {
+  outline: none;
+}
+
+.link-button:active {
+  color:red;
+}
